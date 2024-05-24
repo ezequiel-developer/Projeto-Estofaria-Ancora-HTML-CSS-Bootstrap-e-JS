@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título da Página -->
+  <title>Ãncora Capotaria Estofaria</title>
+  <!-- Ícone Favorito -->
+  <link rel="shortcut icon" href="assets/img/iconeatualizado (2).jpeg" type="image/x-icon">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <!-- Bootstrap JS (versão 5.3.2) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- jQuery (versão 3.5.1) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <!-- Bootstrap JS (versão 4.5.2) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Script Personalizado -->
+  <script src="assets/js/script.js" defer></script>
+  <!-- Desenvolvedor -->
+  <meta name="author" content="Ezequiel Avelino">
+</head>
+
+<body>
+
+  <!-- SESSÃO - HEADER - NAVBAR -->
+  <header id="sessaoHeader">
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="menuNavbar">
+      <div class="container-fluid">
+
+        <!-- Logo -->
+        <div class="logo">
+          <a href="#sessaoHeader" class="navbar-brand"><img src="assets/img/logo-estofaria-navbar.jpeg" alt="logo estofaria âncora"
+              style="height: 60px;"></a>
+        </div> <!-- Fim do Logo -->
+
+        <!-- Texto do cabeçalho -->
+        <div class="logo mt-2">
+          <h1>Âncora Capotaria <br> Estofaria Náutica</h1>
+        </div> <!-- Fim do Texto do cabeçalho -->
+
+        <!-- Botão de menu hamburguer -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bottom-navbar"
+          aria-controls="bottom-navbar" aria-expanded="false" aria-label="Toggle Navigation">
+          <i class="bi bi-list"></i>
+        </button> <!-- Fim do Botão menu hamburguer -->
+
+        <!-- Lista de itens da Navbar -->
+        <ul class="container-fluid navbar-nav mb-lg-0 collapse navbar-collapse justify-content-end" id="bottom-navbar">
+          <li class="nav-item">
+            <a href="#sessaoHeader" class="nav-link">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#sessaoSobreEmpresa" class="nav-link">Sobre Nós</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#sessaoServicos" class="nav-link">Serviços</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#sessaoOrcamento" class="nav-link">Orçamento</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#sessaoInfos" class="nav-link">Localização</a>
+          </li>
+
+        </ul> <!-- Fim da Lista ul Navbar -->
+      </div> <!-- Fim do container-fluid -->
+    </nav> <!-- Fim da navbar -->
+  </header> <!-- FIM SESSÃO - HEADER - NAVBAR -->
+
+  <!-- CARROSEL - HEADLINE -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+      <!-- Primeiro item do carrossel -->
+      <div class="carousel-item active">
+        <img src="assets/img/capota1.jpg" class="d-block w-100" alt="foto da capota na lancha">
+      </div> <!-- Fim do primeiro item do carrossel -->
+
+      <!-- Segundo item do carrossel -->
+      <div class="carousel-item">
+        <img src="assets/img/estofado1.jpg" class="d-block w-100" alt="foto do estofado na lancha">
+      </div> <!-- Fim do segundo item do carrossel -->
+
+      <!-- Terceiro item do carrossel -->
+      <div class="carousel-item">
+        <img src="assets/img/fechamento3.jpg" class="d-block w-100" alt="foto do fechamento na lancha">
+      </div> <!-- Fim do terceiro item do carrossel -->
+    </div> <!-- Fim do carrossel-inner -->
+  </div> <!-- FIM CARROSEL - HEADLINE -->
+
+  <main> <!--INICIO CONTEUDO PRINCIPAL-->
+
+    <!-- SESSÃO CARDS - HEADLINE -->
+    <section class="container" id="sessaoCardsHeadline">
+      <div class="row">
+
+        <div class="col-12 col-md-4 col-xl-4 mb-4">
+          <div class="card">
+            <div class="card-body d-flex  justify-content-center flex-column">
+              <i class="bi bi-shield-fill-check"></i>
+              <h5 class="card-title">Excelência</h5>
+              <p class="card-text">Na nossa estofaria, a qualidade e estilo navegam juntos.</p>
+            </div> <!--card-body-->
+          </div><!--card-->
+        </div> <!--grid-->
+
+        <div class="col-12 col-md-4 col-xl-4 mb-4">
+          <div class="card">
+            <div class="card-body d-flex  justify-content-center flex-column">
+              <i class="bi bi-geo-alt-fill"></i>
+              <h5 class="card-title">Localização</h5>
+              <p class="card-text">Atendimento de primeira nas marinas de SC. Venha conferir!</p>
+            </div> <!--card-body-->
+          </div><!--card-->
+        </div> <!--grid-->
+
+        <div class="col-12 col-md-4 col-xl-4 mb-4">
+          <div class="card">
+            <div class="card-body d-flex  justify-content-center flex-column">
+              <i class="bi bi-wallet2"></i>
+              <h5 class="card-title">Pagamento</h5>
+              <p class="card-text">Cartões em até 4x ou 10% de desconto para pagamento em dinheiro/PIX.
+                Aproveite!</p>
+            </div> <!--card-body-->
+          </div><!--card-->
+        </div> <!--grid-->
+
+      </div> <!--row-->
+    </section> <!-- FIM SESSÃO CARDS - HEADLINE-->
+
+    <!-- SESSÃO SOBRE A EMPRESA -->
+    <section class="container-fluid" id="sessaoSobreEmpresa">
+      <div class="row align-items-center">
+
+        <div class="col-12 col-md-6 col-xl-8">
+
+          <h2>Sobre Nós</h2>
+
+          <p>Somos uma empresa especializada em estofados, capotas, fechamentos e capas náuticas em Santa Catarina. Com
+            anos de experiência e dedicação, oferecemos serviços de alta qualidade para atender às necessidades
+            específicas de cada cliente.</p>
+
+          <p>Nossa equipe de profissionais qualificados está comprometida em fornecer soluções sob medida, garantindo
+            durabilidade, funcionalidade e design impecável em todos os nossos produtos. Seja para proteger sua
+            embarcação ou renovar seu interior, estamos aqui para oferecer o melhor em conforto e estilo. Conte conosco
+            para cuidar de sua lancha!</p>
+
+          <!-- Botões das redes sociais -->
+          <div class="d-flex justify-content-center gap-4" id="redesSociais">
+
+            <div class="d-flex align-items-center btn">
+              <a href="https://wa.me/47999614459" target="_blank"><i class="bi bi-whatsapp m-2"></i></a>
+              <span><a href="https://wa.me/47999614459" target="_blank">whatsapp</a></span>
+            </div>
+
+            <div class="d-flex align-items-center btn">
+              <a href="https://www.instagram.com/estofaria.ancora?igsh=MWV3c295ZXVra2F6Mg==" target="_blank"><i class="bi bi-instagram m-2"></i></a>
+              <span><a href="https://www.instagram.com/estofaria.ancora?igsh=MWV3c295ZXVra2F6Mg==" target="_blank">instagram</a></span>
+            </div>
+
+          </div> <!-- Fim das redes sociais -->
+        </div> <!--grid -->
+
+        <div class="col-12 col-md-6 d-flex col-xl-4 justify-content-end justify-content-center">
+
+          <div class="imagemSobre">
+            <img src="/assets/img/logo-quem-somos.jpeg" alt="logo âncora estofaria e capotaria">
+          </div> <!--imagemSobre-->
+
+        </div> <!--grid-->
+      </div> <!--row-->
+    </section> <!-- FIM SESSÃO SOBRE A EMPRESA -->
+
+    <!-- SESSÃO SERVIÇOS -->
+    <section id="sessaoServicos">
+      <div class="container">
+        <div class="row">
+
+          <!-- Título e descrição -->
+          <div class="col-12 text-center">
+            <h2>O que fazemos</h2>
+            <p>Confira abaixo alguns dos serviços prestados pela Capotaria e Estofaria Âncora</p>
+          </div>
+
+          <!-- Card para o serviço de capotas -->
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img src="/assets/img/capota1.jpg" alt="imagem de capota em lancha" style="height: 200px;">
+              <div class="card-body">
+                <h5 class="card-title">Capotas</h5>
+              </div> <!--card-body-->
+            </div> <!--card-->
+          </div> <!--grid-->
+
+          <!-- Card para o serviço de estofados -->
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img src="/assets/img/estofado1.jpg" alt="imagem de estofado em lancha" style="height: 200px;">
+              <div class="card-body">
+                <h5 class="card-title">Estofados</h5>
+              </div> <!--card-body-->
+            </div> <!--card-->
+          </div> <!--grid-->
+
+          <!-- Card para o serviço de fechamentos -->
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img src="/assets/img/fechamento3.jpg" alt="imagem de fechamento em lancha" style="height: 200px;">
+              <div class="card-body">
+                <h5 class="card-title">Fechamentos</h5>
+              </div> <!--card-body-->
+            </div> <!--card-->
+          </div> <!--grid-->
+
+        </div> <!--row-->
+      </div> <!--container-->
+    </section> <!-- FIM SESSÃO SERVIÇOS -->
+
+    <!--SESSÃO NOSSAS ÚLTIMAS INSTALAÇÕES-->
+    <section class="container" id="sessaoUltimasInstalacoes">
+      <div class="row justify-content-between">
+
+        <!-- Texto sobre as últimas instalações -->
+        <div class="col-12  col-md-4 mb-4">
+          <div class="txtUltimasInstalacoes">
+
+            <h2>Confira <br> nossas últimas <br class="d-md-none"> instalações</h2>
+
+            <p>Cada instalação representa não apenas nosso compromisso com a qualidade, mas também a
+              dedicação em superar as expectativas de nossos clientes.</p>
+
+            <p> Explore nossa galeria de imagens ao lado, para ver alguns dos nossos trabalhos mais
+              recentes. Desde capotas personalizadas até estofados meticulosamente elaborados, cada
+              detalhe é uma prova do nosso profissionalismo e paixão pelo que fazemos.</p>
+
+            <p> Estamos aqui para transformar suas ideias em realidade! Entre em contato conosco para uma consulta sem
+              compromisso e descubra como nossa experiência em estofaria e capotaria pode tornar sua embarcação ainda
+              mais
+              confortável e elegante.</p>
+
+          </div> <!--txtUltimasInstalacoes-->
+        </div> <!--grid-->
+
+        <!-- Galeria de imagens -->
+        <div class="col-xl-8 col-md-8">
+          <div class="row">
+
+            <!-- Imagens das instalações -->
+            <!-- Cada imagem é clicável e abre em um modal para visualização em tela cheia -->
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card ">
+                <img src="assets/img/capota1.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="0">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/capota2.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="1">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/capota3.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="2">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/capota4.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="3">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4 mb-4">
+              <div class="card">
+                <img src="assets/img/capota5.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="4">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/capota6.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="5">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/capota7.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="6">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/capota8.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="7">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4 mb-4">
+              <div class="card">
+                <img src="assets/img/capota9.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="8">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/colchao-estofado1.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="9">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/colchao-estofado2.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="10">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4 mb-4">
+              <div class="card">
+                <img src="assets/img/colchao-estofado3.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="11">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/colchao-estofado4.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="12">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/dog-hause1.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="13">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4 mb-4">
+              <div class="card">
+                <img src="assets/img/dog hause2.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="14">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/dog hause 3.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="15">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/estofado1.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="16">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4 mb-4">
+              <div class="card">
+                <img src="assets/img/estofado2.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="17">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/estofado3.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="18">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/fechamento1.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="19">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/fechamento2.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="20">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 mb-4">
+              <div class="card">
+                <img src="assets/img/fechamento3.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="21">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4">
+              <div class="card">
+                <img src="assets/img/teto1.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="22">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4">
+              <div class="card">
+                <img src="assets/img/teto2.jpg" class="img-fluid gallery-img" data-toggle="modal"
+                  data-target="#carouselModal" data-slide-to="23">
+              </div>
+            </div>
+          </div> <!--row-->
+        </div> <!--col-md-9-->
+
+        <!-- Modal para visualização em tela cheia -->
+        <div class="modal fade" id="carouselModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div id="fullscreen-carousel" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                      <img src="assets/img/capota1.jpg" class="d-block w-100" alt="foto capota 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/capota2.jpg" class="d-block w-100" alt="foto capota 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/capota3.jpg" class="d-block w-100" alt="foto capota 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/capota4.jpg" class="d-block w-100" alt="foto capota 4">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/capota5.jpg" class="d-block w-100" alt="foto capota 5">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/capota6.jpg" class="d-block w-100" alt="foto capota 6">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/capota7.jpg" class="d-block w-100" alt="foto capota 7">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/capota8.jpg" class="d-block w-100" alt="foto capota 8">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/capota9.jpg" class="d-block w-100" alt="foto capota 9">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/colchao-estofado1.jpg" class="d-block w-100" alt="foto colchão estofado 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/colchao-estofado2.jpg" class="d-block w-100" alt="foto colchão estofado 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/colchao-estofado3.jpg" class="d-block w-100" alt="foto colchão estofado 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/colchao-estofado4.jpg" class="d-block w-100" alt="foto colchão estofado 4">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/dog-hause1.jpg" class="d-block w-100" alt="dog hause veleiro 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/dog hause2.jpg" class="d-block w-100" alt="dog hause veleiro 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/dog hause 3.jpg" class="d-block w-100" alt="dog hause veleiro 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/estofado1.jpg" class="d-block w-100" alt="estofamento 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/estofado2.jpg" class="d-block w-100" alt="estofamento 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/estofado3.jpg" class="d-block w-100" alt="estofamento 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/fechamento1.jpg" class="d-block w-100" alt="fechamento 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/fechamento2.jpg" class="d-block w-100" alt="fechamento 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/fechamento3.jpg" class="d-block w-100" alt="fechamento 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/teto1.jpg" class="d-block w-100" alt="teto 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/teto2.jpg" class="d-block w-100" alt="teto 2">
+                    </div>
+                  </div> <!--INNER-->
+
+                  <!-- Controles de navegação do carrossel -->
+                  <a class="carousel-control-prev" href="#fullscreen-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Voltar</span>
+                  </a>
+                  <a class="carousel-control-next" href="#fullscreen-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Avançar</span>
+                  </a>
+                  <!-- Fim Controles de navegação do carrossel -->
+
+                </div> <!--fullscreen-carousel-->
+              </div> <!--modal-body-->
+            </div> <!--modal-content-->
+          </div> <!--modal-dialog modal-lg-->
+        </div> <!--modal fade-->
+      </div> <!--row-->
+    </section> <!-- FIM SESSÃO NOSSAS ÚLTIMAS INSTALAÇÕES-->
+
+    <!-- SESSÃO ORÇAMENTO -->
+    <section id="sessaoOrcamento">
+      <div class="container-fluid m-0 p-0 position-relative ">
+
+        <!-- Imagem de fundo -->
+        <div class="jumbotron">
+          <img src="assets/img/banner-lancha.jpg" class="img-fluid" alt="foto lancha">
+        </div> <!--jumbotron-->
+
+        <!-- Botão de solicitação de orçamento -->
+        <div
+          class="position-absolute bottom-0 start-50 translate-middle-x d-flex flex-column-reverse  align-items-center text-center mb-4"
+          id="containerBtnOrcamento">
+          <button class="btn"><a href="https://wa.me/47999614459" target="_blank">Fazer Orçamento</a></button>
+          <p>Explore o mar com estilo e conforto. Solicite seu orçamento.</p>
+        </div>
+
+      </div> <!--container-fluid-->
+    </section> <!-- FIM SESSÃO ORÇAMENTO -->
+
+    <!-- FOOTER -->
+    <footer id="sessaoInfos">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+
+          <!-- Logo e redes sociais -->
+          <div class="col-12 col-md-4  col-xl-4 mb-5">
+
+            <div class="d-flex align-items-center" id="redesSociais">
+              <img src="assets/img/logo-estofaria-footer.jpeg" alt="logo da estofaria e capotaria âncora" style="height: 80px;">
+              <div>
+                <div class="d-flex align-items-center link-rede">
+                  <a href="https://wa.me/47999614459" target="_blank"><i class="bi bi-whatsapp m-2"></i></a>
+                  <span><a href="https://wa.me/47999614459" target="_blank">whatsapp</a></span>
+                </div>
+                <div class="d-flex align-items-center link-rede">
+                  <a href="https://www.instagram.com/estofaria.ancora?igsh=MWV3c295ZXVra2F6Mg==" target="_blank"><i class="bi bi-instagram m-2"></i></a>
+                  <span><a href="https://www.instagram.com/estofaria.ancora?igsh=MWV3c295ZXVra2F6Mg==" target="_blank">instagram</a></span>
+                </div>
+              </div>
+
+            </div> <!--fim redesSociais-->
+          </div> <!--grid-->
+
+          <!-- Links de navegação -->
+          <div class="col-12 col-xl-4 col-md-4  d-none d-lg-block">
+            <div>
+              <ul class="nav flex-column nav-footer">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#header">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sessaoSobreEmpresa">Sobre Nós</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sessaoServicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sessaoOrcamento">Orçamento</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sessaoInfos">localização</a>
+                </li>
+              </ul>
+            </div>
+          </div> <!--grid-->
+
+          <!-- Informações de contato -->
+          <div class="col-12 col-md-6 col-xl-4" id="infosContato">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3554.031188309695!2d-48.6604383257571!3d-27.029180398077933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8b5cab85bd555%3A0xc0b613dcb64995d5!2sR.%20Manaus%2C%20187%20-%20Bairro%20Areias%2C%20Cambori%C3%BA%20-%20SC%2C%2088345-030!5e0!3m2!1spt-BR!2sbr!4v1716485298283!5m2!1spt-BR!2sbr"
+              width="280px" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <p>Camboriú/SC, Areias, R.Manaus, N 187 <br> estofaria.ancora@hotmail.com <br> (47) 9 9961-4459</p>
+          </div>
+
+          <!-- Horário de funcionamento -->
+          <div class="col-12 mt-4">
+            <table class="table text-center">
+              <tbody class="font-weight-normal">
+                <tr>
+                  <td>Segunda a sexta</td>
+                  <td>08:00 - 12:00</td>
+                  <td>13:30 - 18:00</td>
+                </tr>
+                <tr>
+                  <td>Sábado</td>
+                  <td colspan="2">8:00 - 12:00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div> <!--grid-->
+
+          <div class="col-12 text-center mt-5" id="infoCreditos">
+            <p>© Todos os direitos reservados, Âncora Estofaria e Capotaria Náutica</p>
+            <p style="font-size: 20px; margin-top: 70px;">Desenvolvido por <a href="#">Ezequiel Avelino</a></p>
+          </div>
+        </div> <!--row-->
+      </div> <!--container-fluid-->
+    </footer> <!-- FIM FOOTER-->
+
+  </main> <!-- FIM MAIN CONTEÚDO PRINCIPAL-->
+</body>
+
+</html>
